@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+        style 
+            include ../static/style.css
+    body
+        h1 Membership Application Form
+        div#outer 
+            div#inner
+                //- Client will be posting the data. "name" attribute is must in all:
+                //- action will include the page from which the client will post:
+                //- method will be here post(must field):
+                form(action="/" method="post" id="contact")
+                    input(type="text", name="name",id="name", placeholder="Type your name here")
+                    input(type="number", name="number",  id="number",placeholder="Type your mobile number here")
+                    input(type="email", name="email",  id="email", placeholder="Email Address")
+                    <textarea placeholder="Write Your full address here", name="address", id="address", cols="20" rows="10"></textarea>
+                    <textarea placeholder="More about yourself", name="more" , id="more", cols="15" rows="10"></textarea>
+                    //- This button must be in form and have class as "btn":
+                    <button class="btn">Submit</button>

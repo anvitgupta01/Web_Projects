@@ -1,0 +1,19 @@
+{
+  "name": "form.json",
+  "version": "1.0.0",
+  "description": "This is application for the membership for Microsoft free AI learning course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ApplicationForm",
+    "Microsoft"
+  ],
+  "author": "Anvit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
