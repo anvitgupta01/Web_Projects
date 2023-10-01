@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Potta+One&display=swap');
+.navbar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 0px 3px;
+    font-family: 'Lugrasimo', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gamegrid{
+    margin: 20px;
+    font-size: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,20vh);
+}
+
+.gameinfo{
+    margin: 20px;
+}
+
+.gameinfo h1{
+    margin: 5px 0px;
+}
+
+.turn{
+    margin: 3px;
+}
+#Reset{
+    margin: 0px 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.box{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-top{
+    border-top: none;
+}
+
+.border-right{
+    border-right: none;
+}
+
+.border-left{
+    border-left: none;
+}
+
+.border-bottom{
+    border-bottom: none;
+}
+
+.img-section img{
+    width: 0px;
+    transition: width 1.5s ease-in;
+}
+
+@media only screen and (max-width : 900px){
+    .gamegrid{
+        margin: 20px;
+        font-size: 6vw;
+        display: grid;
+        grid-template-columns: repeat(3,15vw);
+        grid-template-rows: repeat(3,10vh);
+    }
+}
