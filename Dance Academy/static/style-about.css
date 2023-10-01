@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#about-para{
+    background-color: rgb(203, 195, 195);
+    padding: 6px;
+}
+#about-para h2{
+    margin: 20px 2px;
+}
+
+#about-para img{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 92px;
+    width: 479px;
+}
+#about-para p{
+    color: black;
+    margin: 8px;
+}

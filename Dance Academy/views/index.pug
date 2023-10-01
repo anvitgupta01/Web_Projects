@@ -1,0 +1,52 @@
+doctype html 
+html 
+    head 
+        title #{title}
+        style 
+            include ../static/style.css
+       
+    body 
+        div#navbar
+            ul    
+                div#logo
+                    img(src="/static/logo.png")
+                    | ADA  
+                li #[a(href="/") Home] 
+                li #[a(href="/classInfo") Class Info] 
+                li #[a(href="/contact") Contact Us] 
+                li #[a(href="/about") About] 
+        section#intro-section 
+            h2 Welcome to Akansha Dance Academy
+            p Eat sleep and learn Dance
+        section#mission-section 
+            h1 Our mission 
+            div.card#card1
+                h2 Dance Perfection
+                div.card-box 
+                    div.card-image
+                        img(src="/static/2.png")
+                    div.card-para#card-para1
+                        p Every perfection requires continous effort, dedication and good guidance. 
+            div.card#card2
+                h2 Dance the way you like
+                div.card-box
+                    div.card-image
+                        img(src="/static/1.png")
+                    div.card-para#card-para2
+                        p Learn as you wish will not make you feel that you are working on some others hand
+            div.card#card3
+                h2 Experts teaching
+                div.card-box
+                    div.card-image
+                        img(src="/static/3.png")
+                    div.card-para#card-para3
+                        p Teachers and mentors with more than 15 years of experience.
+        section#sponsors 
+            h2 Our sponsors 
+            div#sponsor-logo
+                img(src="/static/logo1.png")
+                img(src="/static/logo2.png")
+                img(src="/static/logo3.png")
+                img(src="/static/logo4.png")
+
+        footer Copyright © akansha.danceAcademy@ADA.in | All rights reserved 

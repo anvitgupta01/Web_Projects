@@ -1,0 +1,27 @@
+extends base.pug
+
+block tit 
+    | Contact form
+block scripts 
+
+block styles 
+    style 
+        include ../static/style.css 
+        include ../static/style1.css
+block intro 
+    | Contact Form 
+block intro1 
+    | Akansha Dance Academy
+block content
+    div#contact-div
+        form(action="/contact" method="post" id="contact")
+            input(name="name",type="text",placeholder="Type your name here" class="input" id="input1")
+            input(name="number",type="number",placeholder="Mobile Number" class="input" id="input2")
+            input(name="email",type="email",placeholder="Email Address" class="input" id="input3")
+            input(name="age",type="number",placeholder="Your age" class="input" id="input4")
+            input(name="DOB",type="date" class="input" id="input5")
+            textarea(name="concern",cols="20",rows="10",placeholder="Write your concern here" class="input" id="input6")
+            button.btn Submit
+    
+
+
