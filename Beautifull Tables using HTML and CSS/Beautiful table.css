@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 60%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(224, 224, 224);
+}
+
+#table1 tr th{
+    background-color: rgb(44, 214, 44);
+}
+
+#table2 tr th{
+    background-color: rgb(200, 47, 47);
+}
+#table3 tr th{
+    background-color: rgb(75, 75, 196);
+}
