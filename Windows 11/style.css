@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-image: url("bg.jpeg"); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+
+    background-color: rgb(238, 236, 236);
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(195 242 236);
+    text-align: center;
+    z-index: 110;
+}
+.taskbar img[src='icons.jpg']{
+    height: 42px;
+}
+.taskbar img[src="time.png"]{
+    position: absolute;
+    right: 0px;
+    height: 45px;
+}
+
+.startmenu img{
+    width: 50%;
+    height: 570px;
+    border-radius: 8px;
+}
+
+.startmenu{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: -580px;
+    z-index: 110;
+    transition: all 0.7s ease-in;
+}
+
+.icons{
+    display: flex;
+    width: 70px;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 4px;
+}
+.icons img{
+    margin-left: 8px;
+    width: 50px;
+}
+.icons span{
+    /* color: white; */
+    display: inline-block;
+    margin: 5px 0px 20px 0px;
+    width: 65px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icons img[src="chromeicon.png"]{
+    width: 85px;
+    margin-left: -7px;
+}
+
+video{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
