@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.head{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.back-code{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.back-code ol li{
+    margin: 20px 0px;
+}
